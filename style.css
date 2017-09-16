@@ -1,0 +1,292 @@
+<style type="text/css">
+
+.container { 
+	border-style: solid; 
+	border-width:2px; 
+	width: 400px; 
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: Times New Roman, Times, serif;
+	font-size: 15px;
+	color: #000000;
+}
+
+* {
+ 	margin: 0 auto 0 auto;
+ 	text-align:left;
+}
+
+p {
+	text-align: left;
+	text-align: justify;
+}
+
+hr {
+	border: 0; 
+	height: 1px; 
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.divider {
+	clear:both; /*no floating elements allowed on either side of the divider*/
+	width:915px;
+	height:5px;
+}
+
+#header ul {
+	list-style-type: none; /*dont show bullets like a list*/
+	overflow:hidden; /*if overflow, hide extra content*/
+	width:650px;
+	float:center;
+}
+
+#header ul li , #header ul li a, #header ul li a:visited {
+	float:left;
+	text-align:center;
+	line-height:40px;
+	color:#512E5F;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	padding-left:20px;
+	padding-right:10px;
+}
+
+#header ul li a:hover {
+	text-decoration: underline;
+	text-decoration-color:#C0C0C0;
+}
+
+#content {
+	width:950px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#journal {
+	width:800px;
+	margin-top:20px;
+	margin-bottom:20px;	
+}
+
+#journal h2 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	padding-bottom:30px;
+	padding-top: 25px;
+}
+
+#journal p {
+	line-height:31px;
+}
+
+#content h2 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	padding-bottom:15px;
+}
+
+#content p {
+	line-height:20px;
+}
+
+#content .contentleft {
+	width:355px;
+	text-align:center;
+	float:left;
+}
+
+#content .contentleft h1 {
+	padding-top:20px;
+	padding-left:20px;
+	color:#FFFFFF;
+	font-size:28px;
+}
+
+#content .contentleft h3 {
+	padding-bottom:20px;
+	padding-left:20px;
+	color:#C9E1FA;
+	font-size:18px;
+}
+
+#content .contentright {
+	padding-left:0px;
+	height:auto;
+	width:525px;
+	padding-bottom:20px;
+	float:left;
+}
+
+#content .contentright h2 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	padding-bottom:15px;
+}
+
+#content .contentright p {
+	line-height:20px;
+}
+
+#content .contentright  a, #content .contentright  a:visited {
+	color:#800020;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#content .contentright a:hover {
+	text-decoration: underline;
+	text-decoration-color:#C0C0C0;
+}
+
+#page {
+	background-color: #ffffff;
+	margin: 35px auto 35px auto;
+	display: block; 
+	height:auto;
+	position: relative; 
+	overflow: hidden; 
+	width: 950px;
+}
+
+#round {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 250px;
+	height: 350px;
+}
+
+#round img {
+    display: block;
+    height: 100%;
+    width: 100%; 
+    min-width: 100%;
+	min-height: 100%;
+}
+
+.oval {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 350px;
+	height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+#journalimg {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 350px;
+	height: 200px;	
+}
+
+#journalimg img {
+    display: block;
+    height: 100%;
+    width: 100%; 
+    min-width: 100%;
+	min-height: 100%;
+}
+
+#footer {
+	display:block;
+	text-align:left;
+	font-size:12px;
+	line-height:25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+#footer a, #footer a:visited {
+	color:#800020;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	text-decoration-color:#C0C0C0;
+}
+
+.pagecircle {
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+    background: #800020;
+    text-align: center;
+    color: #ffffff;
+}
+
+#navigationcircles ul {
+	display:block;
+	list-style-type: none;
+	overflow:hidden;
+	width:650px;
+	float:center;
+}
+
+#navigationcircles ul li {
+	float:left;
+	text-align:center;
+	line-height:40px;
+	color:#800020;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#navigationcircles ul li a {
+	text-decoration: none;
+}
+
+#navigationcircles ul li a:hover {
+	text-decoration: underline;
+	text-decoration-color:#C0C0C0;
+}
+
+.paper {
+	padding: 25px 55px 25px;
+	position: relative;
+	border: 1px solid #B5B5B5;
+	background: white;
+	background: -webkit-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+	background: -moz-linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+	background: linear-gradient(top, #DFE8EC 0%, white 8%) 0 57px;
+	-webkit-background-size: 100% 30px;
+	-moz-background-size: 100% 30px;
+	-ms-background-size: 100% 30px;
+	background-size: 100% 30px;
+}
+
+.paper::before {
+	content:""; 
+	z-index:-1; 
+	margin:0 1px; 
+	width:706px; 
+	height:10px; 
+	position:absolute; 
+	bottom:-3px; 
+	left:0; 
+	background:white; 
+	border:1px solid #B5B5B5;
+}
+
+.paper::after {
+	content:''; 
+	position:absolute; 
+	width:0px; 
+	top:0; 
+	left:39px; 
+	bottom:0; 
+	border-left:1px solid #F8D3D3;
+}
