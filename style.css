@@ -146,12 +146,12 @@ hr {
 
 #page {
 	background-color: #ffffff;
-	margin: 35px auto 35px auto;
+	margin: 2.5% auto 2.5% auto;
 	display: block; 
 	height:auto;
 	position: relative; 
 	overflow: hidden; 
-	width: 950px;
+	width: 75%;
 }
 
 #round {
