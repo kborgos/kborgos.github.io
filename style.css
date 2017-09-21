@@ -96,7 +96,7 @@ hr {
 }
 
 #content .contentleft {
-	width:355px;
+	width:35%;
 	text-align:center;
 	float:left;
 }
@@ -118,7 +118,7 @@ hr {
 #content .contentright {
 	padding-left:0px;
 	height:auto;
-	width:525px;
+	width:60%;
 	padding-bottom:20px;
 	float:left;
 }
@@ -200,9 +200,7 @@ hr {
 	text-align:left;
 	font-size:12px;
 	line-height:25px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 10px;
+	padding-left: 10%;
 }
 
 #footer a, #footer a:visited {
