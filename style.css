@@ -65,10 +65,12 @@ hr {
 #content {
 	width:90%;
 	margin-top:2%;
+	margin-bottom:3%;
 }
 
 #content li {
 	padding-bottom: 3%;
+	text-align: justify;
 }
 
 #journal {
