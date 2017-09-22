@@ -32,10 +32,14 @@ hr {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+ul {
+	padding-bottom: 3%;
+}
+
 .divider {
 	clear:both; /*no floating elements allowed on either side of the divider*/
-	width:915px;
-	height:5px;
+	width:90%;
+	height:0.5%;
 }
 
 #header ul {
@@ -63,9 +67,9 @@ hr {
 }
 
 #content {
-	width:950px;
-	margin-top:20px;
-	margin-bottom:20px;
+	width:90%;
+	margin-top:2%;
+	margin-bottom:57.8%;
 }
 
 #journal {
