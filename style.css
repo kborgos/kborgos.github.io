@@ -49,8 +49,8 @@ hr {
     padding-left: 1.5rem;
 }
 
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    background-color: #4a235a !important; 
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    background-color: #c39bd3; 
 }
 
 /* Custom */
@@ -73,4 +73,9 @@ hr {
     width: 40px;
     height: 40px;
     margin-right: 10px;
+}
+
+#thmb img {
+    width: 150px;
+    height: 150px;
 }
