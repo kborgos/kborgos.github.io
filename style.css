@@ -57,8 +57,6 @@ hr {
 #round {
 	border-radius: 50%;
 	overflow: hidden;
-	width: 250px;
-	height: 250px;
 }
 
 #round img {
