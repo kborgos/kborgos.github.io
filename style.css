@@ -55,16 +55,16 @@ hr {
 
 /* Custom */
 #round {
-	border-radius: 50%;
 	overflow: hidden;
 }
 
 #round img {
     display: block;
+    border-radius: 50%;
     height: 100%;
     width: 100%; 
-    min-width: 100%;
-	min-height: 100%;
+    max-width: 275px;
+	max-height: 275px;
 }
 
 #social-media img {
